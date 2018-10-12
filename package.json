@@ -1,0 +1,25 @@
+{
+  "name": "npm-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "stop": "node server.stop.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jineeshjohn/npm-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jineeshjohn/npm-server/issues"
+  },
+  "homepage": "https://github.com/jineeshjohn/npm-server#readme",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  }
+}
