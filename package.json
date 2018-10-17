@@ -1,29 +1,38 @@
 {
-  "name": "npm-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "stop": "node server.stop.js",
-    "test": " node -v "
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jineeshjohn/npm-server.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jineeshjohn/npm-server/issues"
-  },
-  "homepage": "https://github.com/jineeshjohn/npm-server#readme",
-  "devDependencies": {
-    "async": "^2.6.1",
-    "express": "^4.16.4",
-    "npm": "^6.4.1",
-    "socket.io": "^2.1.1",
-    "socket.io-client": "^2.1.1"
-  },
-  "dependencies": {}
+    "name": "npm-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "stop": "node server.stop.js",
+        "test": " node -v --silent",
+        "test:jest": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jineeshjohn/npm-server.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jineeshjohn/npm-server/issues"
+    },
+    "homepage": "https://github.com/jineeshjohn/npm-server#readme",
+    "devDependencies": {
+        "async": "^2.6.1",
+        "express": "^4.16.4",
+        "npm": "^6.4.1",
+        "socket.io": "^2.1.1",
+        "socket.io-client": "^2.1.1",
+        "babel-jest": "^23.6.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "jest": "^23.6.0",
+        "react-test-renderer": "^16.5.1"
+    },
+    "dependencies": {
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2"
+    }
 }

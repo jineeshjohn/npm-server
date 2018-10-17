@@ -1,0 +1,11 @@
+{
+  "name": "testinfolder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testscriptinfolder.js",
+  "scripts": {
+    "test": "node -v"
+  },
+  "author": "",
+  "license": "ISC"
+}
