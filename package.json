@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "stop": "node server.stop.js",
-    "test": " node -v "
+    "test": " node -v ",
+    "test:api": "node ./readargs.js"
   },
   "repository": {
     "type": "git",
